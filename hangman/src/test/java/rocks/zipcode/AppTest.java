@@ -1,18 +1,32 @@
 package rocks.zipcode;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 /**
  * Unit test for simple App.
  */
-class AppTest {
-    /**
-     * Rigorous Test.
-     */
-    @Test
-    void testApp() {
-        assertEquals(1, 1);
+public class AppTest {
+Hangman game;
+    @Before
+    public void setup() {
+        this.game = new Hangman();
     }
+
+    @Test
+    public void paaaaaaaaass() {
+
+    }
+    @Test
+    public void oneMoGan() {
+
+    }
+
+
+
 }
+
+
